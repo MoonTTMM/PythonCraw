@@ -24,7 +24,7 @@ def create_userstory(userstory_dict):
 def create_userstory_item(userstory_dict):
 	return UserStory(objectID = userstory_dict["objectId"], formattedId = userstory_dict["FormattedID"], name = userstory_dict["Name"])
 
-class UserstorySpider(scrapy.Spider):
+class IterationSpider(scrapy.Spider):
 	name = "iteration"
 	allowed_domain = ["rallydev.com"]
 	start_urls = ["https://rally1.rallydev.com/slm/login.op"]
