@@ -1,6 +1,5 @@
 import helper
 import re
-from spider_iteration import *
 
 TYPES = helper.enum(FEATURE="portfolioitem/feature", USERSTORY="hierarchicalrequirement")
 FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children")

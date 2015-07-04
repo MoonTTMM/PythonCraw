@@ -19,3 +19,10 @@ class UserStory(scrapy.Item):
 	name = scrapy.Field()
 	dependencies = scrapy.Field()
 
+class IterationBurnDown(scrapy.Item):
+	date = scrapy.Field()
+	todo = scrapy.Field()
+	actual = scrapy.Field()
+	accepted = scrapy.Field()
+
+

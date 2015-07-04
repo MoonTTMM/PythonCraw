@@ -2,35 +2,22 @@ import scrapy
 import json
 import helper
 import re
-from RallyCrawl.items import UserStory
+from RallyCrawl.items import IterationBurnDown
 
 TYPES = helper.enum(FEATURE="portfolioitem/feature", USERSTORY="hierarchicalrequirement")
-FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children")
-BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/iteration"
+FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children", REVISION="RevisionHistory", REMAINING="TaskRemainingTotal", ACTUAL="TaskActualTotal", ESTIMATE="TaskEstimateTotal")
+BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/"
+CATEGORY = helper.enum(ITERATION="iteration", ARTIFACT="artifact")
 ITERATION = "I17"
 
+owners = ["Man Shen"]
 project_query = "Project = \"Project/15468059055\""
-
-def add_to_us_dict(userstory_dict, us_id, added_dict):
-	if userstory_dict.has_key(us_id):
-		userstory_dict[us_id]["dependencies"].update(added_dict)
-	else:
-		for value in userstory_dict.values():
-			add_to_us_dict(value["dependencies"], us_id, added_dict)
-
-def create_userstory(userstory_dict):
-	return {"id" : userstory_dict["FormattedID"], "name" : userstory_dict["Name"], "dependencies" : {} }
-
-def create_userstory_item(userstory_dict):
-	return UserStory(objectID = userstory_dict["objectId"], formattedId = userstory_dict["FormattedID"], name = userstory_dict["Name"])
+time_change = ["TASK REMAINING TOTAL", "TASK ACTUAL TOTAL"]
 
 class IterationSpider(scrapy.Spider):
 	name = "iteration"
 	allowed_domain = ["rallydev.com"]
 	start_urls = ["https://rally1.rallydev.com/slm/login.op"]
-
-	# {objectId: {formattedId:"", name:"", dependencies:{objectId:{..} , ...} }}
-	queried_userstories = {}
 
 	def parse(self, response):
 		return scrapy.FormRequest.from_response(
@@ -40,7 +27,7 @@ class IterationSpider(scrapy.Spider):
 			)
 
 	def after_login(self, response):
-		project_iterations_url = helper.build_url(BASE_SERVICE, [], [], [project_query])
+		project_iterations_url = helper.build_url(BASE_SERVICE + CATEGORY.ITERATION, [], [], [project_query])
 		return scrapy.Request(project_iterations_url, callback = self.parse_iteration)
 
 	def parse_iteration(self, response):
@@ -48,7 +35,8 @@ class IterationSpider(scrapy.Spider):
 		for iteration in iteration_dict["QueryResult"]["Results"]:
 			if ITERATION in iteration["Name"]:
 				iteration_query = "iteration = \"" +　iteration["_ref"] + "\""
-				iteration_userstories_url = helper.build_url(BASE_SERVICE, [TYPES.USERSTORY], [], [project_query, iteration_query])
+				iteration_userstories_url = helper.build_url(BASE_SERVICE + CATEGORY.ARTIFACT, [TYPES.USERSTORY], \
+					[FIELDS.OWNER, FIELDS.REVISION, FIELDS.ESTIMATE, FIELDS.ACTUAL, FIELDS.REMAINING], [project_query, iteration_query])
 				yield scrapy.Request(iteration_userstories_url, callback = self.parse_userstory)
 
 	# traverse all userstories and get those with given owner.
@@ -57,28 +45,21 @@ class IterationSpider(scrapy.Spider):
 		# userstory is a dict
 		for userstory in userstory_dict["QueryResult"]["Results"]:
 			# recursion in user story tree. (only traverse search userstory)
-			children = userstory["Children"]
-			yield scrapy.Request(children["_ref"]+"?pagesize=10000", callback = self.parse_userstory)
-			# recursion in predecessor tree.
-			predecessors = userstory["Predecessors"]
-			if predecessors["Count"] > 0 : 
-				yield UserStory(name = userstory["Name"])
-				UserstorySpider.queried_userstories[userstory["ObjectID"]] = create_userstory(userstory)
-				yield scrapy.Request(predecessors["_ref"], callback = self.parse_predecessors)
+			owner = userstory["OWNER"]["_refObjectName"]
+			if owner in owners:
+				yield scrapy.Request(userstory["RevisionHistory"] + "/Revisions", callback = self.parse_revisions)
 
-	# traverse all predecessors of one userstory
-	def parse_predecessors(self, response):
-		userstory_dict = json.loads(response.body)
-		# userstory is a dict
-		for userstory in userstory_dict["QueryResult"]["Results"]:
-			# according to the us's successor id, add us to the dependencies of the successor.
-			successor_id = re.search(r'\d+', re.search(r'/\d+/', response.url).group()).group()
-			dependency = create_userstory(userstory)	
-			add_to_us_dict(UserstorySpider.queried_userstories, successor_id, dependency)
-			# recursion in predecessor tree.
-			predecessors = userstory["Predecessors"]
-			if predecessors["Count"] > 0:
-				yield scrapy.Request(predecessors["_ref"], callback = self.parse_predecessors)
+	def parse_revisions(self, response):
+		revision_dict = json.loads(response.body)
+		for revision in revision_dict["QueryResult"]["Results"]:
+			date = revision["_CreatedAt"]
+			time = revision["CreationDate"]
+			content = revision["Description"]
+			hour = helper.parse_hour_from_iteration(content)
+			if "TASK REMAINING TOTAL" in content:
+				yield IterationBurnDown(date = date, todo = hour)
+			elif "TASK ACTUAL TOTAL" in content:
+				yield IterationBurnDown(date = date, actual = hour)
 			
 
 

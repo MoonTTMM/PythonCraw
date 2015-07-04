@@ -1,3 +1,5 @@
+import re
+
 def enum(**enums):
     return type('Enum', (), enums)
 
@@ -25,4 +27,7 @@ def build_url(base_service, types, fields, querys):
 	querystring = "&query=" + querystring
 	url = base_service + "?pagesize=200" + typestring + fieldstring + querystring
 	return url
+
+def parse_hour_from_iteration(content):
+	return re.search(r'\d+', re.search(r'to \[\d+', content).group()).group()
 
