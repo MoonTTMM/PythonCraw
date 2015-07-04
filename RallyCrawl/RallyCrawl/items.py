@@ -12,3 +12,10 @@ class RallycrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     service = scrapy.Field()
+
+class UserStory(scrapy.Item):
+	objectId = scrapy.Field()
+	formattedId = scrapy.Field()
+	name = scrapy.Field()
+	dependencies = scrapy.Field()
+

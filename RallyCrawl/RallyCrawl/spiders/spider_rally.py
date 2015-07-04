@@ -1,6 +1,5 @@
 import scrapy
 import json
-import helper
 
 class RallySpider(scrapy.Spider):
 	serviceCount = 0
@@ -92,5 +91,3 @@ class RallySpider(scrapy.Spider):
 
 	def is_us(self, value):
 		return "user story" in value.lower() or "user stories" in value.lower() or "US" in value or "userstory" in value.lower() or "userstories" in value.lower()
-
-	

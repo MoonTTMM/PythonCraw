@@ -15,3 +15,7 @@ NEWSPIDER_MODULE = 'RallyCrawl.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'RallyCrawl (+http://www.yourdomain.com)'
+
+# Feed export
+FEED_FORMAT = 'json'
+FEED_URI = 'file: userstory_data.json'

@@ -4095,3 +4095,1923 @@ Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683
 Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683686/Attributes
 Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Iterations
 Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/workspace/3852683575
+UserStory: UserStory
+https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/3852683575/TypeDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/workspace/3852683575
+https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/3852683575/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/subscription/3852683567
+https://rally1.rallydev.com/slm/webservice/v2.x/user/3950147568
+https://rally1.rallydev.com/slm/webservice/v2.x/workspaceconfiguration/3852683577
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683666
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/3950147568
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51004
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51004/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683686
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/workspaceconfiguration/3852683577
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/subscription/3852683567
+https://rally1.rallydev.com/slm/webservice/v2.x/Subscription/3852683567/Workspaces
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51084
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51084/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51003
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51002
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51003/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683822
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683678
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/4129665306
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/4484831680
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41552
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41552/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/9062510929
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41552/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/21040698022
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41582
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51002
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51002/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51001
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51001/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Subscription/3852683567/Workspaces
+UserStory: UserStory
+UserStory: UserStory
+https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/16973471873/TypeDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/workspace/16973471873
+https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/16973471873/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16628186081
+https://rally1.rallydev.com/slm/webservice/v2.x/workspaceconfiguration/16973471875
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9016091686
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9083040663
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41609
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41576
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41584
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41582/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683702
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683702/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683694
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683694/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41581
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7084502596
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683714
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41582/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41609/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41576/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/9083040663
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41605/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16628186081
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41580/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/15407732300
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51001/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10000
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51002/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51003/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17000/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10003
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10003/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10003/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10001
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10001/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10001/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41563
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10003/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41538/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41579/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16538290627
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/5186810668
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/4358154211
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/5186810669
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973471979
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41563/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10001
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41536
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41550
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41202/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/4484831680/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683714
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41203
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41203/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41203/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51079
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41202
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41202/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41202/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41201
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41201/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41201/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41200
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41200/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41200/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/userprofile/18760861233
+https://rally1.rallydev.com/slm/webservice/v2.x/project/15468059055
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10000
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973471989
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41561
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10001/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41535/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41550/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/5186810673
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/5186810673/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/5186810673/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/user/34695351324
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7011678667
+https://rally1.rallydev.com/slm/webservice/v2.x/user/10368678447
+https://rally1.rallydev.com/slm/webservice/v2.x/user/15882597003
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16541856226
+https://rally1.rallydev.com/slm/webservice/v2.x/user/35974479893
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16511
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/34695351324
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472004
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41561/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41534/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41549/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/3852683575/TypeDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683666
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51084
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683666/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683678
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51004
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683678/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683686
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51003
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683686/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683822
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683822/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/4129665306
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/4129665306/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/4484831680
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/4484831680/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/9062510929
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/9062510929/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/21040698022
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/21040698022/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683670
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683670/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683714/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683718
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683718/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683742
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683742/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683750
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683750/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683770
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51033
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683770/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683879
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683879/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683887
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683887/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683907
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683907/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7084502596
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9182655323
+https://rally1.rallydev.com/slm/webservice/v2.x/user/15407732300
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16537870783
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16538290627
+https://rally1.rallydev.com/slm/webservice/v2.x/user/18760861231
+https://rally1.rallydev.com/slm/webservice/v2.x/userprofile/18760861233
+https://rally1.rallydev.com/slm/webservice/v2.x/User/18760861231/TeamMemberships
+https://rally1.rallydev.com/slm/webservice/v2.x/User/18760861231/UserPermissions
+https://rally1.rallydev.com/slm/webservice/v2.x/user/19279949112
+https://rally1.rallydev.com/slm/webservice/v2.x/user/31211695181
+https://rally1.rallydev.com/slm/webservice/v2.x/user/38127159442
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7758161525
+https://rally1.rallydev.com/slm/webservice/v2.x/user/12121039440
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16537872792
+https://rally1.rallydev.com/slm/webservice/v2.x/user/27167439696
+https://rally1.rallydev.com/slm/webservice/v2.x/user/38087872037
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683722
+UserStory: US
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683722/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/5186810669
+https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/5186810669/Revisions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/5186810673
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16511/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/10368678447
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20510/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472014
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41560/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41532
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/6969121869
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/5186810673/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16510
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16541856226
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20509
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472049
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41559
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41529
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/5186810668/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/user/6969121869
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019401268
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019403081
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019550110
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019551666
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019557484
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13019643380
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019403081
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16510/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20509/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472144
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41559/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41128/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019551666
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16509/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20507/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472174
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41558
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41127/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41546
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019643380
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16508
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20506
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41558/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41125/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41546/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/15468059055
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/15467509441
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16545962326
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/15468059056
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41568
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602780
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16508/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20506/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41557/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41118
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/15468059060
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/15468059060/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/15468059060/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/4129665306/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41609
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41609/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41609/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51078
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41605
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41605/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41538/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41537
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41537/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41536/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41535
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41535/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41534/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41533
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41533/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41532/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683682
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41529/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41128
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41128/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41127/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683746
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41125/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41124
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41124/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/5605851666
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41123
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41123/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41123/AllowedQueryOperators
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41117/AllowedValues
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41116
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41116/AllowedQueryOperators
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41115/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41568/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227346
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16545962326
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16507
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20504/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41556
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41118/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683822/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41584
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41584/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41584/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51073
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39809
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39809/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39809/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683895
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39808
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39808/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39808/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39807
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39807/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39807/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683786
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39806
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39806/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39806/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39805
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39805/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39805/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39804
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39804/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39804/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39803
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39803/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39803/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39802
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39802/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39802/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39801
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39801/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39801/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683903
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39800
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39800/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39800/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/user/12343341639
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16542194348
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16545960327
+https://rally1.rallydev.com/slm/webservice/v2.x/user/16545960978
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-22500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/15468059060
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41565
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921907
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16507/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20503
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472312/Attributes
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/9062510929/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41605/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41538
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41538/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41537/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41536
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41536/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41535/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41534
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41534/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41533/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41532
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41532/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41529
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41529/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41128/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41127
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41127/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41125
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41125/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41124/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41118
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41118/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41118/AllowedQueryOperators
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41117
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41117/AllowedQueryOperators
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41116/AllowedValues
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41115
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41115/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41114
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41114/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41114/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30009
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/12343341639
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-22500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/15468059060/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41565/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653465
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16506/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20503/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683694/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683722
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20510
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20510/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20510/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51017
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20509
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20509/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20509/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20507
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20507/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20507/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20506
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20506/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20506/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20504
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20504/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20504/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20503
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20503/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20503/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20501
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20501/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20501/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/21040698022/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41563
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41563/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41563/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51085
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41561
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41561/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41561/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41560
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41560/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41560/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41559
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41559/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41559/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683710
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41558
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41558/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41558/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41557
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41557/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41557/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41556
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41556/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41556/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41555
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41555/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41555/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41554
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41554/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41554/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41553
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41553/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41553/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39609
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30009/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16545960327
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21504
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41564/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432407949
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16505
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20501/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39609/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30008
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21504/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19525
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416681035
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16505/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683678/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41552
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41552/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41552/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51001
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683694
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41523
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41523/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41523/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51012
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41518
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41518/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41518/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20020
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20020/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20020/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20019
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20019/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20019/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20018
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20018/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20018/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683762
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20016
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20016/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20016/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20015
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20015/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20015/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20014
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20014/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20014/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20013
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20013/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20013/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20012
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20012/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20012/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20011
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20011/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20011/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20010
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20010/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20010/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20009
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20009/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20009/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedeResponse: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39608
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30008/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19525/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38363819717
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16504/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/16973471873/TypeDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973471979
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973471979/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973471989
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973471989/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472004
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472004/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472014
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472014/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472049
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472049/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472144
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472144/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472174
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51026
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472174/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472219
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472219/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472295
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472295/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472312
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472312/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472019
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472019/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472119
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472119/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472134
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472134/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472159
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472159/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472189
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472189/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472326
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472326/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472340
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472340/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51084/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41581
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41581/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41580/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41579
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41579/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41562/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41550
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41550/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41550/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41549
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41549/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41549/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41548
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41548/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41548/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683690
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41547
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41547/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41547/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41546
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41546/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41546/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41545
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41545/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41545/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41544
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41544/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41544/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41543
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41543/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41543/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683806
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41542
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41542/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41542/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41541
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41541/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41541/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41540
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41540/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41540/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41539
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41539/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41539/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39608/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30007/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21502
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19524/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38254137826
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16502
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41540
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683686/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41576
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41576/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41576/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51015
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683706
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17000/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15014
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15014/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15014/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15013
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15013/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15013/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15012
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15012/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15012/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15011
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15011/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15011/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683778
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15010
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15010/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15010/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15009
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15009/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15009/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15008
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15008/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15008/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15007
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15007/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15007/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15006
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15006/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15006/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15005
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15005/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15005/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15003
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15003/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15003/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15002
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15002/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15002/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15001
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15001/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15001/AllowedQueryOperators
+https://rally1.rallydev.com/slm/Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/-51004/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683702
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-17500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-17500/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-17000
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10519
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10519/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10519/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10518
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10518/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10518/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10517
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10517/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10517/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10516
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10516/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10516/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10515
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10515/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10515/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10514
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10514/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10514/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10512
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10512/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10512/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10511
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10511/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10511/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683774
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10509
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10509/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10509/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10507
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10507/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10507/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10506
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10506/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10506/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10505
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10505/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10505/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10503
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10503/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10503/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10502
+https://rally1.rallydev.com/slm/webservice/v2.x/AttriResponse: https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/5186810669/Revisions
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602780
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404562
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227346
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7605146826
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921907
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920815
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653465
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651470
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432407949
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38428181203
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416681035
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416466773
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38363819717
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38355498513
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38254137826
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38127159651
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38095161149
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088361949
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088012710
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088011534
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38016848389
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683666/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41582
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41582/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41582/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41581/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41580
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41580/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41579/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41562
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41562/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41520
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41520/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41520/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12546
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12546/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12546/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51006
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12544
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12544/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12544/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12543
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12543/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12543/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12542
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12542/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12542/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12541
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12541/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12541/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12540
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12540/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12540/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12539
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12539/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12539/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12538
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12538/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12538/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12537
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12537/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12537/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12536
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12536/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12536/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12535
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12535/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12535/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39302
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39607/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30006
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21502/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19523
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38095161149
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16502/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472326/Attributes
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683702/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16511
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16511/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16511/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51020
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16510
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16510/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16510/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16509
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16509/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16509/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16508
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16508/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16508/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683738
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16507
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16507/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16507/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16506
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16506/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16506/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16505
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16505/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16505/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16504
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16504/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16504/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16502
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16502/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16502/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16501
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16501/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16501/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472174/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-22500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-22500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-22500/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51028
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21504
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21504/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21504/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21503
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21503/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21503/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21502
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21502/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21502/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21501
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21501/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21501/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472134/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39302
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39302/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39302/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51067
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39301
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39301/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39301/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Workspace/3852683575/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9016091686
+https://rally1.rallydev.com/slm/webservice/v2.x/project/5186810668
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9016091686/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9016091687
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9096798416
+https://rally1.rallydev.com/slm/webservice/v2.x/project/6955001805
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/user/6962871173
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9096798417
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9096799518
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9096799519
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9182052209
+https://rally1.rallydev.com/slm/webservice/v2.x/project/4357453029
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/user/10629884423
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9182052210
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9194224803
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9194224804
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9194227748
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9194227749
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Editors
+https://rally1.rallwebservice/v2.x/attributedefinition/-15000
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15000/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39504
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39302/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39606
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30006/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21501/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19523/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088012710
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16501/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28004
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39504/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39301
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39606/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30005/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19522/AllowedValues
+UserStory: US - CA Berkeley
+UserStory: US - CA Santa Clara
+UserStory: US - CA Santa Rosa
+UserStory: US - Other
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38016848389
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28004/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39503
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39301/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39605/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30004
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19521
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16500/AllowedQueryOperators
+buteDefinition/-10502/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10502/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10501
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10501/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10501/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39503/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39604
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30004/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19521/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10501/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20006/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9325610477
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472219/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30009
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30009/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30009/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51043
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30008
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30008/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30008/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30007
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30007/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30007/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30006
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30006/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30006/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30005
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30005/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30005/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30004
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30004/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30004/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30003
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30003/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30003/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683782
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30000
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30000/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28003/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39502/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39604/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30003/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19520/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20005
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472189/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28004
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28004/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28004/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51040
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28003
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28003/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28003/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28002
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28002/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28002/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28000
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28000/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472159/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39504
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39504/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39504/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51069
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39503
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39503/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39503/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39502
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39502/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39502/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39501
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39501/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39501/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39500
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39500/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28002/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39501
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39603/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19519
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20005/AllowedQueryOperators
+finition/-20008
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20008/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20008/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20007
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20007/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20007/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20006
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20006/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20006/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20005
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20005/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20005/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20004
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20004/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20004/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20003
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20003/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20003/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/9325610482
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325610482/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325610482/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683782
+https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683782/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472295/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39609
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39609/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39609/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51070
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39608
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39608/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39608/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39607
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39607/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39607/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39606
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39606/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39606/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39605
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39605/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39605/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39604
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39604/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39604/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39603
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39603/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39603/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39602
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39602/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39602/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39600
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39600/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39600/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28000
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39501/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39602
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19519/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20004/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9325610478
+https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/9325610478/Revisions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/9325610482
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39602/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19518/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9325612649
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7077022755
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325610482/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39600/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19517
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20003/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325610482/Projects
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/9325612654
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325612654/Projects
+https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325612654/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7597954431
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19517/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7597954125
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39600/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19517/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9859038431
+https://rally1.rallydev.com/slm/webservice/v2.x/user/33594485783
+https://rally1.rallydev.com/slm/webservice/v2.x/user/10258435672
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9325612650
+https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/9325612650/Revisions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7077022755
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7597954125
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7597954431
+https://rally1.rallydev.com/slm/webservice/v2.x/user/7597955926
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9323936383
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9323938021
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9859035658
+https://rally1.rallydev.com/slm/webservice/v2.x/user/10525078842
+https://rally1.rallydev.com/slm/webservice/v2.x/user/9859037383
+https://rally1.rallydev.com/slm/webservice/v2.x/user/13139038219
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/builddefinition/9325612654
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/9323936383
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19516/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7597955926
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19516
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39500/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683722/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41568
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41568/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41568/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51025
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41565
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41565/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41565/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41564
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41564/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41564/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19525
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19525/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19525/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19524
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19524/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19524/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19523
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19523/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19523/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19522
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19522/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19522/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19521
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19521/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19521/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19520
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19520/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19520/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19519
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19519/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19519/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19518
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19518/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19518/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19517
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19517/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19517/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19516
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19516/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19516/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19515
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19515/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19515/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19514
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19514/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19514/AllowedQueryOperators
+https://rally1.rResponse: https://rally1.rallydev.com/slm/webservice/v2.x/user/9859038431
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29508
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325612654/Builds
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/9859035658
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19515
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/9325612654/Projects
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/9323938021
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602862
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/10258435672
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/9859037383
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29508/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19515/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10110329569/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10184947211
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10478226075
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227428
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29507
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19514/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/10110329569
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404644
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/10110329570
+https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/10110329570/Revisions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920897
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29507/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19513
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9873315334
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/10570756125
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10570756125/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10570758360
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10573828783
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10637983905
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/10570756126
+https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/10570756126/Revisions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9430147404/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602864
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10184947211
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11537922550/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651559
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29506/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19513/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Releases
+ydev.com/slm/webservice/v2.x/project/9325610477
+https://rally1.rallydev.com/slm/webservice/v2.x/project/7597953153
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9325610478
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9325612649
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9325612650
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9428959246
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9428959247
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9873315334
+https://rally1.rallydev.com/slm/webservice/v2.x/project/6960946863
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Releases
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/TeamMembers
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9873315335
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Children
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/9856229225/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/project/9856229225
+allydev.com/slm/webservice/v2.x/attributedefinition/-19513
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19513/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19513/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19512
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19512/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19512/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19511
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19511/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19511/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683782/Attributes
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29508
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29508/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29508/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51042
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29507
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29507/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29507/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29506
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29506/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29506/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29505
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29505/AllowedValues
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29505/AllowedQueryOperators
+https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29503
+https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/9325610478/Revisions
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602862
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404644
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227428
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921990
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920897
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653547
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651559
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432408033
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38428267383
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416681117
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416466855
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38363819800
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38355498622
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10110329569/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/10110329569
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/10110329570
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10570756125/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/10570756125
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/10570756126
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11067873594/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11067873594
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11067873595
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11537922550/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11537922550
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11537922551
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11875727497/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11875727497
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11875727498
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/12234381709/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/12234381709
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/12234381710
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/12618686235/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/9325612650/Revisions
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457602864
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404646
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227430
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921992
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920899
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653549
+https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651561
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/Iterations
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9430147404/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9430147404
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9430147405
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9990447357/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9990447357
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9990447358
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9990514398/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9990514398
+https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9990514399
+https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10700050621/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11067873594/UserIterationCapacities
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11067988004
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11068267235
+https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11175952871
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/6960946863
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/Editors
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/BuildDefinitions
+https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/10110329570/Revisions
+UserStory: Unscheduled User Story [US9704: We have no technical debt]
+UserStory: Scheduled User Story [US9726: ni408x_driver has access to public errors]
+UserStory: Unscheduled User Story [US9674: User can create a deviceWindow given a flash controller]
+UserStory: Unscheduled User Story [US9650: User can configure all supported device attributes]
+UserStory: Unscheduled User Story [US9651: Can create and use range tables]
+UserStory: Unscheduled User Story [US9643: User can query the current ni408x session state]
+UserStory: Unscheduled User Story [US9644: User receives error when setting attributes in running state]
+UserStory: Unscheduled User Story [US9641: Driver load sequence is complete (HW engineers not required to write additional registers)]
+UserStory: Unscheduled User Story [US9659: Active register map controls have default names]
+UserStory: Unscheduled User Story [US9702: User can specify the default name through the command line when building register map classes]
+UserStory: Unscheduled User Story [US9697: User can get the default registration names from the register map class]
+UserStory: Unscheduled User Story [US9658: Generate versioned RC files from RBM]
+UserStory: Unscheduled User Story [US9701: User can specify the version (and oldest compat) through the command line when building register map classes]
+UserStory: Unscheduled User Story [US9700: User can get the version from the register map class]
+UserStory: Unscheduled User Story [US9657: Support TRA discriminant]
+UserStory: Unscheduled User Story [US9670: User can query for number of available raw, filtered samples from ni408x API]
+UserStory: Unscheduled User Story [US9668: Detect DMA buffer overflows]
+UserStory: Unscheduled User Story [US9669: User can abort DMA]
+UserStory: Unscheduled User Story [US9665: ni408x start begins DMA transfer to host buffer]
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10570758360
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9990447357/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457227430
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/11875727497/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38428267383
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29505
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19512/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/RevisionHistory/10570756126/Revisions
+UserStory: Unscheduled User Story [US9704: We have no technical debt]
+UserStory: Scheduled User Story [US10823: create state tracking class]
+UserStory: Unscheduled User Story [US9643: User can query the current ni408x session state]
+UserStory: Unscheduled User Story [US9670: User can query for number of available raw data samples from ni408x API]
+UserStory: Unscheduled User Story [US9644: User receives error when setting attributes in running state]
+UserStory: Unscheduled User Story [US9660: Can send/receive triggers and events internally]
+UserStory: Unscheduled User Story [US11589: Document the startup process]
+UserStory: Scheduled User Story [US11589: Document the startup process]
+UserStory: Scheduled User Story [US11669: Optimize the measure unit register map layout]
+UserStory: Scheduled User Story [US9674: User can create a deviceWindow given a flash controller]
+UserStory: Unscheduled User Story [US11077: User can read device configuration file]
+UserStory: Unscheduled User Story [US11078: Can iterate over entries in the device configuration file]
+UserStory: Unscheduled User Story [US11079: Can assign default names to devices]
+UserStory: Unscheduled User Story [US11080: Can delete devices from the device configuration file]
+UserStory: Unscheduled User Story [US11081: Can be notified of changes in the device configuration file]
+UserStory: Unscheduled User Story [US11082: Can be notified of changes in HW config]
+UserStory: Unscheduled User Story [US11083: Can rename a device through the ni408xStore API]
+UserStory: Unscheduled User Story [US11084: Can query if a device is present]
+UserStory: Unscheduled User Story [US11086: Can acquire multiprocess lock]
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11067988004
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10637983905
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/9990514398/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920899
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/12234381709/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416466855
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11175952871
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/10700050621/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651561
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Iteration/12618686235/UserIterationCapacities
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38355498622
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19511/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9856229225
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/6960946863/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/11068267235
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9990514399
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9990514398
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653549
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/12234381710
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/12234381709
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38363819800
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29503
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19511/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9856229225/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29505/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19511
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10573828783
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9990447358
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9990447357
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921992
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11875727498
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11875727497
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416681117
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29505/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19512/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9873315335
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9430147405
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/9430147404
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404646
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/useriterationcapacity/10478226075
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11537922551
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11537922550
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432408033
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29506/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19512
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/11067873595
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/iteration/11067873594
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443653547
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-29506
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19513/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443921990
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29507/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19514/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51042
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13139038219
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9873315334/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19514
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9428959247
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/33594485783
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-29508/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/10525078842
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19515/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19516/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9428959246/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9428959246
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39600
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19518/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20003/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39602/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19518
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325612649/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20004/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28002/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39501/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30000
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19519/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20004
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-28002
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39603/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39502/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39603
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30003/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19520/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20005/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28003/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39502
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39604/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19520
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10501/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/7597953153
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20006/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51040
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39605/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30004/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19521/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10501
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15000/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9325610477/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20006
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10502/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15000/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20007/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-28004/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51069
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39301/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39605
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30005/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19522/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12535/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10502/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15000
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9194227749
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20007/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16500
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12535/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10502
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15001/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20007
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39504/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51067
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39606/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21501/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19522
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Iterations
+UserStory: <ol style="margin: 10px 0px 0px; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);"><li>Complete NG LVMD issues for their release<ul style="margin: 0px; list-style-type: disc;"><li>Veristand UI Manager needs and "Installed Since..." value</li><li>MathVar tag is not getting validated</li><li>Additional Content Validator rules - conkeyref for attributes on lvmoc and "installed since..."</li></ul></li><li>Follow Scrum process more thoroughly</li><li>Create documentation for onboarding of NICR PAs<ol style="margin: 0px; list-style-type: lower-alpha;"><li>Training plan</li><li>Wiki walkthroughs (extend current page)</li><li>Reference Guide</li></ol></li><li>Get Dev and Test Tiers refreshed - ASMT (Mark)</li><li>Create large backlog of user stories for scheduling this release<ol style="margin: 0px; list-style-type: lower-alpha;"><li>PMEs for NextGen</li><li>Current Gen Import</li><li>Current Gen Export</li><li>Localization -&nbsp;Trados 2014, SPD, NextGen process</li><li>Error Reporting</li></ol></li><li>Jeff - Ensure travel for Onboarding is setup (2 NICR, 1 NIH) for early July (get dates from Mike Young)</li></ol>
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088011534
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16501/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41539/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12535
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30005
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10503/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15001/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20008/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472340/Attributes
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41539/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12536/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15001
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20008/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39302/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39607/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30006/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21501
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19523/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38088361949
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16501
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472340
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41539
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12536/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10503
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15002/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9194227748
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20008
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41540/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12536
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10505/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15002/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194227748/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20009/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39607
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30007/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21502/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19524/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38127159651
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16502/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472326
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41540/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12537/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10505/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15002
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20009/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10505
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15003/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9194224804
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20009
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39608/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-30007
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21503/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12537/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-19524
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38355498513
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16504/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472189
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41553/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41541/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12537
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10506/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15003/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41541/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20010/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41553/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20010/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51070
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10506/AllowedValues
+UserStory: NI-USRP
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16504
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-21503
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-19525/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12538/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38416466773
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30008/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472159
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41553
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41541
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12538/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10506
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15005/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20010
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41554/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41114/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41542/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12538
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10507/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15005/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20011/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39609/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51043
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16545960978
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-21504/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41564/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38428181203
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16505/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20501/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472134
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41554/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41114/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41542/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41542
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12539/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10507/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15005
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39800/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9194224803
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20011/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472119/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41554
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41114
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683806
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12539/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10507
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15006/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39800/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39800
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9194224803/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20011
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-30009/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16542194348
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51028
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41564
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38432651470
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16506/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20501
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472119
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41555/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41115/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41543/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12539
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41115/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10509/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15006/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683903
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20012/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472019/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41555/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41115
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41543/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12540/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41116/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10509/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10509
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15006
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39801/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9182052210
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20012/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-22500/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/15468059060/Projects
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41565/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38443920815
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16506
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20503/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472019
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41555
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41116/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41543
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12540/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41116
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683774
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15007/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39801/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/10629884423
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20012
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41556/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41117/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41544/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12540
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41117/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10511/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15007/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39801
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20013/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51025
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7605146826
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/15468059056
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16507/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20504/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472312
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41556/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41117
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41544/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12541/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41123/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10511/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15007
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39802/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20013/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41544
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12541/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41123/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41123
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10511
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15008/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39802/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20013
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41568/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revision/38457404562
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683738
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20504
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472295
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41557/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41118/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41545/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12541
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/5605851666
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10512/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15008/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39802
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20014/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41545/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12542/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41124/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10512/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15008
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39803/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/4357453029
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9182052209
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20014/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/15468059055/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16508/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20506/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/16973472219
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41557
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41124/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41545
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12542/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39803/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41124
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10512
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15009/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20014
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9182052209/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10514/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15009/AllowedValues
+UserStory: NI-USRP
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41125/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39803
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12542
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/15467509441
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019557484
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16509/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20507/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51026
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41558/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20015/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41125
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41546/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12543/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683746
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10514/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15009
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39804/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/9096799519
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20015/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12543/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41127/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10514
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15010/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39804/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Iterations
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20015
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019550110
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-16509
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20507
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472144/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41127
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683710
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41547/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12543
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41128/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10515/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15010/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15010
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39804
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/TeamMembers
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20016/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41547/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41547
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/38087872037
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12544/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41128
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10515/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683778
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39805/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Releases
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20016/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20016
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683907/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/13019401268
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16510/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/35974479893
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20509/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41559/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472049/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41529/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683690
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/27167439696
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12544/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41529/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10515
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15011/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39805/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/16537872792
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-12544
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10516/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/BuildDefinitions
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683682
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41548/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39805
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/project/9096799518
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683762
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20018/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15011/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683887/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683907
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/BuildDefinition/5186810673/Projects
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51020
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/15882597003
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51017
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/16973472014/Attributes
+UserStory: The number of direct children (Userstories or PortfolioItems) for this PortfolioItem.
+UserStory: Percentage of plan estimates for accepted leaf user stories (i.e. stories without children) that are associated with this Portfolio Item.
+UserStory: Percentage of leaf user stories (stories without children) associated with this Portfolio Item that have been accepted.
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41560/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41548/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41532/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/12121039440
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/-51006
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41532/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-10516/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-15011
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39806/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096799518/Editors
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-20018/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/typedefinition/3852683887
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-41548
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7758161525
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41200/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-12546/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-41533/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-10516
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-15012/AllowedQueryOperators
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-39806/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-39806
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/Project/9096798416/Children
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/attributedefinition/-20018
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/TypeDefinition/3852683879/Attributes
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/AttributeDefinition/-16511/AllowedValues
+Response: https://rally1.rallydev.com/slm/webservice/v2.x/user/7011678667
