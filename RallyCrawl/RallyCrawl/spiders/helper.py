@@ -31,3 +31,6 @@ def build_url(base_service, types, fields, querys):
 def parse_hour_from_iteration(content):
 	return re.search(r'\d+', re.search(r'to \[\d+', content).group()).group()
 
+def parse_id_from_url(url):
+	return re.search(r'\d+', re.search(r'/\d+', url).group()).group()
+

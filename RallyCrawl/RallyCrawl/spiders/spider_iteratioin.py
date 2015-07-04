@@ -8,7 +8,7 @@ TYPES = helper.enum(FEATURE="portfolioitem/feature", USERSTORY="hierarchicalrequ
 FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children", REVISION="RevisionHistory", REMAINING="TaskRemainingTotal", ACTUAL="TaskActualTotal", ESTIMATE="TaskEstimateTotal")
 BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/"
 CATEGORY = helper.enum(ITERATION="iteration", ARTIFACT="artifact")
-ITERATION = "I17"
+ITERATION = "I16"
 
 owners = ["Man Shen"]
 project_query = "Project = \"Project/15468059055\""
@@ -33,8 +33,9 @@ class IterationSpider(scrapy.Spider):
 	def parse_iteration(self, response):
 		iteration_dict = json.loads(response.body)
 		for iteration in iteration_dict["QueryResult"]["Results"]:
-			if ITERATION in iteration["Name"]:
-				iteration_query = "iteration = \"" +　iteration["_ref"] + "\""
+			if ITERATION in iteration["_refObjectName"]:
+				iteration_url = iteration["_ref"]
+				iteration_query = "iteration = \"" + iteration_url + "\""
 				iteration_userstories_url = helper.build_url(BASE_SERVICE + CATEGORY.ARTIFACT, [TYPES.USERSTORY], \
 					[FIELDS.OWNER, FIELDS.REVISION, FIELDS.ESTIMATE, FIELDS.ACTUAL, FIELDS.REMAINING], [project_query, iteration_query])
 				yield scrapy.Request(iteration_userstories_url, callback = self.parse_userstory)
@@ -45,9 +46,9 @@ class IterationSpider(scrapy.Spider):
 		# userstory is a dict
 		for userstory in userstory_dict["QueryResult"]["Results"]:
 			# recursion in user story tree. (only traverse search userstory)
-			owner = userstory["OWNER"]["_refObjectName"]
+			owner = userstory["Owner"]["_refObjectName"]
 			if owner in owners:
-				yield scrapy.Request(userstory["RevisionHistory"] + "/Revisions", callback = self.parse_revisions)
+				yield scrapy.Request(userstory["RevisionHistory"]["_ref"] + "/Revisions", callback = self.parse_revisions)
 
 	def parse_revisions(self, response):
 		revision_dict = json.loads(response.body)
@@ -55,11 +56,14 @@ class IterationSpider(scrapy.Spider):
 			date = revision["_CreatedAt"]
 			time = revision["CreationDate"]
 			content = revision["Description"]
-			hour = helper.parse_hour_from_iteration(content)
+			revisionHistory = revision["RevisionHistory"]["_ref"]
+			userstory = helper.parse_id_from_url(revisionHistory)
 			if "TASK REMAINING TOTAL" in content:
-				yield IterationBurnDown(date = date, todo = hour)
+				todo_hour = helper.parse_hour_from_iteration(content)
+				yield IterationBurnDown(date = date, time = time, todo = todo_hour, userstory = userstory)
 			elif "TASK ACTUAL TOTAL" in content:
-				yield IterationBurnDown(date = date, actual = hour)
+				actual_hour = helper.parse_hour_from_iteration(content)
+				yield IterationBurnDown(date = date, time = time, actual = actual_hour, userstory = userstory)
 			
 
 

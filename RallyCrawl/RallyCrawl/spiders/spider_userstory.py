@@ -7,7 +7,6 @@ from RallyCrawl.items import UserStory
 TYPES = helper.enum(FEATURE="portfolioitem/feature", USERSTORY="hierarchicalrequirement")
 FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children")
 BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/artifact"
-ITERATION = "I17"
 
 def add_to_us_dict(userstory_dict, us_id, added_dict):
 	if userstory_dict.has_key(us_id):

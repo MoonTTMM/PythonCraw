@@ -21,6 +21,8 @@ class UserStory(scrapy.Item):
 
 class IterationBurnDown(scrapy.Item):
 	date = scrapy.Field()
+	time = scrapy.Field()
+	userstory = scrapy.Field()
 	todo = scrapy.Field()
 	actual = scrapy.Field()
 	accepted = scrapy.Field()

@@ -22,4 +22,11 @@ print iteration_userstories_url
 revision_des = "TASK ACTUAL TOTAL changed from [0.0] to [8.0]"
 print parse_hour_from_iteration(revision_des)
 
+history_url = "https://rally1.rallydev.com/slm/webservice/v2.x/revisionhistory/36076397475"
+print parse_id_from_url(history_url)
+
+iteration = {"_ref" : "abc"}
+print "iteration = \"" + iteration["_ref"] + "\""
+
+
 
