@@ -1,0 +1,88 @@
+05 七月 2015 22:07:10,450 INFO  ~ Starting D:\Git\PythonCraw\RallCrawler
+05 七月 2015 22:07:11,051 WARN  ~ You're running Play! in DEV mode
+05 七月 2015 22:07:11,146 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+05 七月 2015 22:07:15,613 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+05 七月 2015 22:07:15,705 INFO  ~ Application 'RallCrawler' is now started !
+05 七月 2015 22:07:17,072 ERROR ~ 
+
+@6mkm76lab
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers/Application.java around line 78)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:237)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application.index(Application.java:78)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:557)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:508)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:484)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:479)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:161)
+	... 1 more
+05 七月 2015 22:32:49,426 ERROR ~ 
+
+@6mkm76lac
+Internal Server Error (500) for request GET /
+
+Template execution error (In /app/views/Application/index.html around line 40)
+Execution error occured in template /app/views/Application/index.html. Exception raised was MissingPropertyException : No such property: dates for class: data.PersonalBurndownChart.
+
+play.exceptions.TemplateExecutionException: No such property: dates for class: data.PersonalBurndownChart
+	at play.templates.BaseTemplate.throwException(BaseTemplate.java:86)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:272)
+	at play.templates.Template.render(Template.java:26)
+	at play.templates.GroovyTemplate.render(GroovyTemplate.java:202)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:24)
+	at play.mvc.Controller.renderTemplate(Controller.java:661)
+	at play.mvc.Controller.renderTemplate(Controller.java:641)
+	at play.mvc.Controller.render(Controller.java:696)
+	at controllers.Application.index(Application.java:128)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:557)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:508)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:484)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:479)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:161)
+	at Invocation.HTTP Request(Play!)
+Caused by: groovy.lang.MissingPropertyException: No such property: dates for class: data.PersonalBurndownChart
+	at /app/views/Application/index.html.(line:40)
+	at play.templates.GroovyTemplate.internalRender(GroovyTemplate.java:247)
+	... 13 more
+05 七月 2015 22:35:40,000 ERROR ~ 
+
+@6mkm76lad
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers/Application.java around line 121)
+The file /app/controllers/Application.java could not be compiled. Error raised is : The method ConvertStringListToString(List&lt;Integer>) in the type CrawlerHelper is not applicable for the arguments (List&lt;String>)
+
+play.exceptions.CompilationException: The method ConvertStringListToString(List<Integer>) in the type CrawlerHelper is not applicable for the arguments (List<String>)
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:281)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:324)
+	at play.Play.detectChanges(Play.java:625)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)
+05 七月 2015 22:35:57,208 ERROR ~ 
+
+@6mkm76lae
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/helper/CrawlerHelper.java around line 74)
+The file /app/helper/CrawlerHelper.java could not be compiled. Error raised is : Type mismatch: cannot convert from element type String to int
+
+play.exceptions.CompilationException: Type mismatch: cannot convert from element type String to int
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:281)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:324)
+	at play.Play.detectChanges(Play.java:625)
+	at play.Invoker$Invocation.init(Invoker.java:198)
+	at Invocation.HTTP Request(Play!)

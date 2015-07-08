@@ -1,0 +1,65 @@
+#{extends 'main.html' /}
+#{set title:'RallyCrawler' /}
+
+<div class="container-fluid">
+	<div class="alert alert-info">
+		<h4>RallyCrawler</h4>
+	</div>
+	<div class="row-fluid">
+		<form class="form-inline">
+			<label class="control-label" for="project">Choose Project</label>
+	   		<input type="text" id="project" name="" value="" />
+	   		<label class="control-label" for="owner">Choose Owner</label>
+	   		<input type="text" id="owner" name="" value="" />
+		</form>
+	</div>
+	<div class="alert alert-info">
+		<h4>Personal Burndown Chart</h4>
+	</div>
+	<div class="row-fluid">
+		<div class="span10" >
+			<div id="burndown_chart"></div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+$(function () { 
+    $('#burndown_chart').highcharts({
+        chart: {
+        	type: "column",
+            renderTo: '${chart.renderToId}',
+            borderColor: '#BBBBBB',
+            borderWidth: 0
+        },
+        title: {
+            text: '<strong>${chart.title}</strong>',
+            x: -20 //center
+        },
+        xAxis: {
+            categories: ${chart.xAxis}
+        },
+        yAxis: {
+            title: {
+                text: '${chart.yTitle}'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: ''
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: ${chart.burndownData}
+    });
+});
+</script>

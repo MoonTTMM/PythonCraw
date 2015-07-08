@@ -27,4 +27,8 @@ class IterationBurnDown(scrapy.Item):
 	actual = scrapy.Field()
 	accepted = scrapy.Field()
 
+class IterationInfo(scrapy.Item):
+	startDate = scrapy.Field()
+	endDate = scrapy.Field()
+
 

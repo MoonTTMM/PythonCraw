@@ -3,9 +3,12 @@ import json
 import helper
 import re
 from RallyCrawl.items import IterationBurnDown
+from RallyCrawl.items import IterationInfo
 
 TYPES = helper.enum(FEATURE="portfolioitem/feature", USERSTORY="hierarchicalrequirement")
-FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children", REVISION="RevisionHistory", REMAINING="TaskRemainingTotal", ACTUAL="TaskActualTotal", ESTIMATE="TaskEstimateTotal")
+FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children", REVISION="RevisionHistory", \
+	REMAINING="TaskRemainingTotal", ACTUAL="TaskActualTotal", ESTIMATE="TaskEstimateTotal", \
+	ENDDATE="EndDate", STARTDATE="StartDate")
 BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/"
 CATEGORY = helper.enum(ITERATION="iteration", ARTIFACT="artifact")
 ITERATION = "I16"
@@ -27,13 +30,14 @@ class IterationSpider(scrapy.Spider):
 			)
 
 	def after_login(self, response):
-		project_iterations_url = helper.build_url(BASE_SERVICE + CATEGORY.ITERATION, [], [], [project_query])
+		project_iterations_url = helper.build_url(BASE_SERVICE + CATEGORY.ITERATION, [], [FIELDS.ENDDATE, FIELDS.STARTDATE], [project_query])
 		return scrapy.Request(project_iterations_url, callback = self.parse_iteration)
 
 	def parse_iteration(self, response):
 		iteration_dict = json.loads(response.body)
 		for iteration in iteration_dict["QueryResult"]["Results"]:
 			if ITERATION in iteration["_refObjectName"]:
+				yield IterationInfo(startDate = iteration["StartDate"], endDate = iteration["EndDate"])
 				iteration_url = iteration["_ref"]
 				iteration_query = "iteration = \"" + iteration_url + "\""
 				iteration_userstories_url = helper.build_url(BASE_SERVICE + CATEGORY.ARTIFACT, [TYPES.USERSTORY], \

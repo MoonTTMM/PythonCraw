@@ -18,4 +18,4 @@ NEWSPIDER_MODULE = 'RallyCrawl.spiders'
 
 # Feed export
 FEED_FORMAT = 'json'
-FEED_URI = 'file: userstory_data.json'
+FEED_URI = 'file: ../../../userstory_data.json'
