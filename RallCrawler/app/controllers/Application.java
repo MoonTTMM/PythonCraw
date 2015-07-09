@@ -24,6 +24,8 @@ public class Application extends Controller {
     	String content = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\userstory_data.json");
     	Date startDate = null;
     	Date endDate = null;
+        Date startDateForUS = null;
+        Date endDateForUS = null;
     	Hashtable dateUsToTime = new Hashtable<String, Date>();
     	
     	Hashtable usToDateToTodo = new Hashtable<String, Hashtable<String, Integer>>();
@@ -52,71 +54,110 @@ public class Application extends Controller {
     			JsonElement todo = jsonObject.get("todo");
     			Date time = CrawlerHelper.ConvertStringToDate(timeString);
     			Date storedTime = (Date)dateUsToTime.get(identifier);
+                if(startDateForUS == null || time.before(startDateForUS)){
+                    startDateForUS = time;
+                }else if(endDateForUS == null || time.after(endDateForUS)){
+                    endDateForUS = time;
+                }
     			if(storedTime == null || time.after(storedTime)){
     				dateUsToTime.put(identifier, time);
-    				if(actual != null){
-    					dateUsToActual.put(identifier, actual.getAsInt());
-    				}else if(todo != null){
-    					dateUsToTodo.put(identifier, todo.getAsInt());
+    			    if(actual != null){
+                        if(usToDateToActual.containsKey(userstory)){
+                            Hashtable actualDict = (Hashtable<String, Integer>)usToDateToActual.get(userstory);
+                            actualDict.put(date, actual.getAsInt);
+                        }
+                    }else if(todo != null){
+                        if(usToDateToTodo.containsKey(userstory)){
+                            Hashtable todoDict = (Hashtable<String, Integer>)usToDateToTodo.get(userstory);
+                            todoDict.put(date, todo.getAsInt);
+                        }
     				}
     			}
     			count++;
     		}
     		
     		// Compensate to have the whole burndown of each us.
-    		
+    		List<String> usDays = CrawlerHelper.GetDaysBetween(startDateForUS, endDateForUS);
+            int previousTodo = 0;
+            int previousActual = 0;
+            for(String day : usDays){
+                for(Hashtable<String, Integer> dict : usToDateToTodo.values){
+                    if(!dict.containsKey(day)){
+                        dict.put(day, previousTodo);
+                    }else{
+                        previousTodo = (int)dict.get(day);
+                    }
+                }
+                for(Hashtable<String, Integer> dict : usToDateToActual.values){
+                    if(!dict.containsKey(day)){
+                        dict.put(day, previousActual);
+                    }else{
+                        previousActual = (int)dict.get(day);
+                    }
+                }
+            }
     		
     		// Sum all user stories' todo and actual hour in each day.
-        	Hashtable dateToTodo = new Hashtable<String, Integer>();
-        	Hashtable dateToActual = new Hashtable<String, Integer>();  
-    		for(Object dateAndUS : dateUsToTime.keySet().toArray()){
-    			String key = (String)dateAndUS;
-    			String date = key.split("/")[0];
-    			if(dateUsToTodo.containsKey(key)){
-    				int todo = (int)dateUsToTodo.get(key);
-    				if(dateToTodo.containsKey(date)){
-    					int hours = todo + (int)dateToTodo.get(date);
-    					dateToTodo.put(date, hours);
-    				}else{
-    					dateToTodo.put(date, todo);
-    				}
-    			}
-    			if(dateUsToActual.containsKey(key)){
-    				int actual = (int)dateUsToActual.get(key);
-    				if(dateToActual.containsKey(date)){
-    					dateToActual.put(date, actual + (int)dateToActual.get(date));
-    				}else{
-    					dateToActual.put(date, actual);
-    				}
-    			}
-    		}
+      //   	Hashtable dateToTodo = new Hashtable<String, Integer>();
+      //   	Hashtable dateToActual = new Hashtable<String, Integer>();  
+    		// for(Object dateAndUS : dateUsToTime.keySet().toArray()){
+    		// 	String key = (String)dateAndUS;
+    		// 	String date = key.split("/")[0];
+    		// 	if(dateUsToTodo.containsKey(key)){
+    		// 		int todo = (int)dateUsToTodo.get(key);
+    		// 		if(dateToTodo.containsKey(date)){
+    		// 			int hours = todo + (int)dateToTodo.get(date);
+    		// 			dateToTodo.put(date, hours);
+    		// 		}else{
+    		// 			dateToTodo.put(date, todo);
+    		// 		}
+    		// 	}
+    		// 	if(dateUsToActual.containsKey(key)){
+    		// 		int actual = (int)dateUsToActual.get(key);
+    		// 		if(dateToActual.containsKey(date)){
+    		// 			dateToActual.put(date, actual + (int)dateToActual.get(date));
+    		// 		}else{
+    		// 			dateToActual.put(date, actual);
+    		// 		}
+    		// 	}
+    		// }
+
     		// Create series data for chart
     		JsonArray burndownJson = new JsonArray();
     		List<String> days = CrawlerHelper.GetDaysBetween(startDate, endDate);   		
     		List<Integer> todos = new ArrayList<Integer>();
     		List<Integer> actuals = new ArrayList<Integer>();
-    		int dayCount = 0;
-    		for(String day : days){
-    			if(!dateToTodo.containsKey(day)){
-        			if(dayCount == 0){
-        				todos.add(0);
-        			}else{
-        				todos.add(todos.get(dayCount-1));
-        			}
-    			}else{
-    				todos.add((int)dateToTodo.get(day));
-    			}
-    			if(!dateToActual.containsKey(day)){
-        			if(dayCount == 0){
-        				actuals.add(0);
-        			}else{
-        				actuals.add(actuals.get(dayCount-1));
-        			}
-    			}else{
-    				actuals.add((int)dateToActual.get(day));
-    			}
-    			dayCount++;
-    		}
+            for(String day : days){
+                int todo = 0;
+                for(Hashtable<String, Integer> dict : usToDateToTodo.values){
+                    if(dict.containsKey(day)){
+
+                    }
+                }
+            }
+
+    		// int dayCount = 0;
+    		// for(String day : days){
+    		// 	if(!dateToTodo.containsKey(day)){
+      //   			if(dayCount == 0){
+      //   				todos.add(0);
+      //   			}else{
+      //   				todos.add(todos.get(dayCount-1));
+      //   			}
+    		// 	}else{
+    		// 		todos.add((int)dateToTodo.get(day));
+    		// 	}
+    		// 	if(!dateToActual.containsKey(day)){
+      //   			if(dayCount == 0){
+      //   				actuals.add(0);
+      //   			}else{
+      //   				actuals.add(actuals.get(dayCount-1));
+      //   			}
+    		// 	}else{
+    		// 		actuals.add((int)dateToActual.get(day));
+    		// 	}
+    		// 	dayCount++;
+    		// }
     		JsonObject actualChartData = new JsonObject();
     		actualChartData.addProperty("name", "Actual");
     		actualChartData.addProperty("data", CrawlerHelper.ConvertIntListToString(actuals));
