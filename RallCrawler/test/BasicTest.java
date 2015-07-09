@@ -38,7 +38,7 @@ public class BasicTest extends UnitTest {
     	list.add(1);
     	list.add(2);
     	list.add(3);
-    	String str = CrawlerHelper.ConvertListToString(list);
+    	String str = CrawlerHelper.ConvertIntListToString(list);
     	assertEquals("[1,2,3]", str);
     }
 }

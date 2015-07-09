@@ -25,6 +25,10 @@ public class Application extends Controller {
     	Date startDate = null;
     	Date endDate = null;
     	Hashtable dateUsToTime = new Hashtable<String, Date>();
+    	
+    	Hashtable usToDateToTodo = new Hashtable<String, Hashtable<String, Integer>>();
+    	Hashtable usToDateToActual = new Hashtable<String, Hashtable<String, Integer>>();
+    	
     	Hashtable dateUsToTodo = new Hashtable<String, Integer>();
     	Hashtable dateUsToActual = new Hashtable<String, Integer>();	    	
     	JsonParser parser = new JsonParser();
@@ -58,6 +62,10 @@ public class Application extends Controller {
     			}
     			count++;
     		}
+    		
+    		// Compensate to have the whole burndown of each us.
+    		
+    		
     		// Sum all user stories' todo and actual hour in each day.
         	Hashtable dateToTodo = new Hashtable<String, Integer>();
         	Hashtable dateToActual = new Hashtable<String, Integer>();  

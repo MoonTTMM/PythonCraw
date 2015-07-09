@@ -11,7 +11,7 @@ FIELDS = helper.enum(NAME="Name", OWNER="Owner", CHILDREN="Children", REVISION="
 	ENDDATE="EndDate", STARTDATE="StartDate")
 BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/"
 CATEGORY = helper.enum(ITERATION="iteration", ARTIFACT="artifact")
-ITERATION = "I16"
+ITERATION = "I17"
 
 owners = ["Man Shen"]
 project_query = "Project = \"Project/15468059055\""
@@ -52,22 +52,21 @@ class IterationSpider(scrapy.Spider):
 			# recursion in user story tree. (only traverse search userstory)
 			owner = userstory["Owner"]["_refObjectName"]
 			if owner in owners:
-				yield scrapy.Request(userstory["RevisionHistory"]["_ref"] + "/Revisions", callback = self.parse_revisions)
+				yield scrapy.Request(userstory["RevisionHistory"]["_ref"] + "/Revisions?pagesize=200", callback = self.parse_revisions)
 
 	def parse_revisions(self, response):
 		revision_dict = json.loads(response.body)
 		for revision in revision_dict["QueryResult"]["Results"]:
-			date = revision["_CreatedAt"]
 			time = revision["CreationDate"]
 			content = revision["Description"]
 			revisionHistory = revision["RevisionHistory"]["_ref"]
 			userstory = helper.parse_id_from_url(revisionHistory)
 			if "TASK REMAINING TOTAL" in content:
-				todo_hour = helper.parse_hour_from_iteration(content)
-				yield IterationBurnDown(date = date, time = time, todo = todo_hour, userstory = userstory)
-			elif "TASK ACTUAL TOTAL" in content:
-				actual_hour = helper.parse_hour_from_iteration(content)
-				yield IterationBurnDown(date = date, time = time, actual = actual_hour, userstory = userstory)
+				todo_hour = helper.parse_todo_hour_from_iteration(content)
+				yield IterationBurnDown(time = time, todo = todo_hour, userstory = userstory)
+			if "TASK ACTUAL TOTAL" in content:
+				actual_hour = helper.parse_actual_hour_from_iteration(content)
+				yield IterationBurnDown(time = time, actual = actual_hour, userstory = userstory)
 			
 
 

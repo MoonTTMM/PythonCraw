@@ -28,8 +28,11 @@ def build_url(base_service, types, fields, querys):
 	url = base_service + "?pagesize=200" + typestring + fieldstring + querystring
 	return url
 
-def parse_hour_from_iteration(content):
-	return re.search(r'\d+', re.search(r'to \[\d+', content).group()).group()
+def parse_todo_hour_from_iteration(content):
+	return re.search(r'TASK REMAINING TOTAL changed from \[\d+\.\d\] to \[(\d+)\.\d\]', content).group(1)
+
+def parse_actual_hour_from_iteration(content):
+	return re.search(r'TASK ACTUAL TOTAL changed from \[\d+\.\d\] to \[(\d+)\.\d\]', content).group(1)
 
 def parse_id_from_url(url):
 	return re.search(r'\d+', re.search(r'/\d+', url).group()).group()
