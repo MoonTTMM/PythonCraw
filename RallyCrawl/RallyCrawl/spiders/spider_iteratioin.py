@@ -13,7 +13,7 @@ BASE_SERVICE = "https://rally1.rallydev.com/slm/webservice/v2.x/"
 CATEGORY = helper.enum(ITERATION="iteration", ARTIFACT="artifact")
 ITERATION = "I17"
 
-owners = ["Man Shen"]
+owners = ["Man Shen", "Zhihao Zhang"]
 project_query = "Project = \"Project/15468059055\""
 time_change = ["TASK REMAINING TOTAL", "TASK ACTUAL TOTAL"]
 

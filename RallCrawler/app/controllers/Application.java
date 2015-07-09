@@ -1,11 +1,13 @@
 package controllers;
 
 import play.*;
+import play.libs.F.Tuple;
 import play.mvc.*;
 import helper.CrawlerHelper;
 
 import java.text.ParseException;
 import java.util.*;
+import java.util.Map.Entry;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -24,15 +26,11 @@ public class Application extends Controller {
     	String content = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\userstory_data.json");
     	Date startDate = null;
     	Date endDate = null;
-        Date startDateForUS = null;
-        Date endDateForUS = null;
-    	Hashtable dateUsToTime = new Hashtable<String, Date>();
-    	
+    	Hashtable dateUsToTime = new Hashtable<String, Date>();    	
     	Hashtable usToDateToTodo = new Hashtable<String, Hashtable<String, Integer>>();
     	Hashtable usToDateToActual = new Hashtable<String, Hashtable<String, Integer>>();
-    	
-    	Hashtable dateUsToTodo = new Hashtable<String, Integer>();
-    	Hashtable dateUsToActual = new Hashtable<String, Integer>();	    	
+    	Hashtable usToTimespan = new Hashtable<String, Tuple<Date, Date>>();
+    	    	
     	JsonParser parser = new JsonParser();
     	JsonArray jsonContent = (JsonArray)parser.parse(content);
     	if(jsonContent != null){
@@ -46,6 +44,7 @@ public class Application extends Controller {
     				count++;
     				continue;
     			}
+    			
     			String timeString = jsonObject.get("time").getAsString();
     			String date = timeString.split("T")[0];
     			String userstory = jsonObject.get("userstory").getAsString();
@@ -53,111 +52,48 @@ public class Application extends Controller {
     			JsonElement actual = jsonObject.get("actual");
     			JsonElement todo = jsonObject.get("todo");
     			Date time = CrawlerHelper.ConvertStringToDate(timeString);
-    			Date storedTime = (Date)dateUsToTime.get(identifier);
-                if(startDateForUS == null || time.before(startDateForUS)){
-                    startDateForUS = time;
-                }else if(endDateForUS == null || time.after(endDateForUS)){
-                    endDateForUS = time;
-                }
+    			
+    			if(usToTimespan.containsKey(userstory)){
+    				Tuple<Date, Date> timespan = (Tuple<Date, Date>)usToTimespan.get(userstory);
+	                if(time.before(timespan._1)){
+	                    usToTimespan.put(userstory, new Tuple<Date, Date>(time, timespan._2));
+	                }else if(time.after(timespan._2)){
+	                    usToTimespan.put(userstory, new Tuple<Date, Date>(timespan._1, time));
+	                }
+    			}else{
+    				usToTimespan.put(userstory, new Tuple<Date, Date>(time, time));
+    			}
+                
+                Date storedTime = (Date)dateUsToTime.get(identifier);
     			if(storedTime == null || time.after(storedTime)){
     				dateUsToTime.put(identifier, time);
     			    if(actual != null){
-                        if(usToDateToActual.containsKey(userstory)){
-                            Hashtable actualDict = (Hashtable<String, Integer>)usToDateToActual.get(userstory);
-                            actualDict.put(date, actual.getAsInt);
-                        }
+    			    	Hashtable actualDict = new Hashtable<String, Integer>();
+    			    	if(usToDateToActual.containsKey(userstory)){
+    			    		actualDict = (Hashtable<String, Integer>)usToDateToActual.get(userstory);
+    			    	}
+                        actualDict.put(date, actual.getAsInt());
+                        usToDateToActual.put(userstory, actualDict);
                     }else if(todo != null){
+                        Hashtable todoDict = new Hashtable<String, Integer>();
                         if(usToDateToTodo.containsKey(userstory)){
-                            Hashtable todoDict = (Hashtable<String, Integer>)usToDateToTodo.get(userstory);
-                            todoDict.put(date, todo.getAsInt);
+                        	todoDict = (Hashtable<String, Integer>)usToDateToTodo.get(userstory);
                         }
+                        todoDict.put(date, todo.getAsInt());
+                        usToDateToTodo.put(userstory, todoDict);                    	
     				}
     			}
     			count++;
-    		}
+    		}   		
     		
-    		// Compensate to have the whole burndown of each us.
-    		List<String> usDays = CrawlerHelper.GetDaysBetween(startDateForUS, endDateForUS);
-            int previousTodo = 0;
-            int previousActual = 0;
-            for(String day : usDays){
-                for(Hashtable<String, Integer> dict : usToDateToTodo.values){
-                    if(!dict.containsKey(day)){
-                        dict.put(day, previousTodo);
-                    }else{
-                        previousTodo = (int)dict.get(day);
-                    }
-                }
-                for(Hashtable<String, Integer> dict : usToDateToActual.values){
-                    if(!dict.containsKey(day)){
-                        dict.put(day, previousActual);
-                    }else{
-                        previousActual = (int)dict.get(day);
-                    }
-                }
-            }
-    		
-    		// Sum all user stories' todo and actual hour in each day.
-      //   	Hashtable dateToTodo = new Hashtable<String, Integer>();
-      //   	Hashtable dateToActual = new Hashtable<String, Integer>();  
-    		// for(Object dateAndUS : dateUsToTime.keySet().toArray()){
-    		// 	String key = (String)dateAndUS;
-    		// 	String date = key.split("/")[0];
-    		// 	if(dateUsToTodo.containsKey(key)){
-    		// 		int todo = (int)dateUsToTodo.get(key);
-    		// 		if(dateToTodo.containsKey(date)){
-    		// 			int hours = todo + (int)dateToTodo.get(date);
-    		// 			dateToTodo.put(date, hours);
-    		// 		}else{
-    		// 			dateToTodo.put(date, todo);
-    		// 		}
-    		// 	}
-    		// 	if(dateUsToActual.containsKey(key)){
-    		// 		int actual = (int)dateUsToActual.get(key);
-    		// 		if(dateToActual.containsKey(date)){
-    		// 			dateToActual.put(date, actual + (int)dateToActual.get(date));
-    		// 		}else{
-    		// 			dateToActual.put(date, actual);
-    		// 		}
-    		// 	}
-    		// }
+    		List<String> iterationDays = CrawlerHelper.GetDaysBetween(startDate, endDate);  
+    		FulfillUserstoryBurndownTodo(usToDateToTodo, usToTimespan, endDate);
+    		FulfillUserstoryBurndownActual(usToDateToActual, usToTimespan, startDate, endDate);   		 		
+    		List<Integer> todos = GetBurndownHourSeries(usToDateToTodo, iterationDays);
+    		List<Integer> actuals = GetBurndownHourSeries(usToDateToActual, iterationDays);
 
     		// Create series data for chart
     		JsonArray burndownJson = new JsonArray();
-    		List<String> days = CrawlerHelper.GetDaysBetween(startDate, endDate);   		
-    		List<Integer> todos = new ArrayList<Integer>();
-    		List<Integer> actuals = new ArrayList<Integer>();
-            for(String day : days){
-                int todo = 0;
-                for(Hashtable<String, Integer> dict : usToDateToTodo.values){
-                    if(dict.containsKey(day)){
-
-                    }
-                }
-            }
-
-    		// int dayCount = 0;
-    		// for(String day : days){
-    		// 	if(!dateToTodo.containsKey(day)){
-      //   			if(dayCount == 0){
-      //   				todos.add(0);
-      //   			}else{
-      //   				todos.add(todos.get(dayCount-1));
-      //   			}
-    		// 	}else{
-    		// 		todos.add((int)dateToTodo.get(day));
-    		// 	}
-    		// 	if(!dateToActual.containsKey(day)){
-      //   			if(dayCount == 0){
-      //   				actuals.add(0);
-      //   			}else{
-      //   				actuals.add(actuals.get(dayCount-1));
-      //   			}
-    		// 	}else{
-    		// 		actuals.add((int)dateToActual.get(day));
-    		// 	}
-    		// 	dayCount++;
-    		// }
     		JsonObject actualChartData = new JsonObject();
     		actualChartData.addProperty("name", "Actual");
     		actualChartData.addProperty("data", CrawlerHelper.ConvertIntListToString(actuals));
@@ -169,7 +105,7 @@ public class Application extends Controller {
     		
     		String burndownData = burndownJson.toString().replaceAll("\"", "").replaceAll("Actual", "'Actual'").replaceAll("Todo", "'Todo'");
     	    chart.burndownData = burndownData;
-    		chart.xAxis = CrawlerHelper.ConvertStringListToString(days);
+    		chart.xAxis = CrawlerHelper.ConvertStringListToString(iterationDays);
     	}
     	
 		chart.title = "Burndown Chart";
@@ -177,5 +113,65 @@ public class Application extends Controller {
 		chart.yTitle = "Hours";
     	
         render(chart);
+    }
+    
+    // Compensate to have the whole burndown of each us.
+    private static void FulfillUserstoryBurndownTodo(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, 
+    		Hashtable<String, Tuple<Date, Date>> usToTimespan,
+    		Date endDate){        
+        for(Object map : usToDateToHour.entrySet()){
+        	int previous = 0;
+        	Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
+        	String userstory = entry.getKey();
+        	Hashtable<String, Integer> dict = entry.getValue();
+        	Tuple<Date, Date> timespan = usToTimespan.get(userstory);
+        	endDate = new Date().before(endDate) ? new Date() : endDate;
+        	List<String> days = CrawlerHelper.GetDaysBetween(timespan._1, endDate);
+        	for(String day : days){
+                if(!dict.containsKey(day)){
+                    dict.put(day, previous);
+                }else{
+                    previous = (int)dict.get(day);
+                }
+        	}
+        }
+    }
+    
+    private static void FulfillUserstoryBurndownActual(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, 
+    		Hashtable<String, Tuple<Date, Date>> usToTimespan, 
+    		Date startDate,
+    		Date endDate){        
+        for(Object map : usToDateToHour.entrySet()){
+        	int previous = 0;
+        	Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
+        	String userstory = entry.getKey();
+        	Hashtable<String, Integer> dict = entry.getValue();
+        	Tuple<Date, Date> timespan = usToTimespan.get(userstory);
+        	endDate = new Date().before(endDate) ? new Date() : endDate;
+        	List<String> days = CrawlerHelper.GetDaysBetween(startDate, endDate);
+        	for(String day : days){
+                if(!dict.containsKey(day)){
+                    dict.put(day, previous);
+                }else{
+                    previous = (int)dict.get(day);
+                }
+        	}
+        }
+    }
+    
+    // Sum hours for user stories in the same day.
+    private static List<Integer> GetBurndownHourSeries(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, List<String> days){
+		List<Integer> hours = new ArrayList<Integer>();
+        for(String day : days){
+            int hour = 0;
+            for(Object value : usToDateToHour.values()){
+            	Hashtable<String, Integer> dict = (Hashtable<String, Integer>)value;
+                if(dict.containsKey(day)){
+                	hour += (int)dict.get(day);
+                }
+            }
+            hours.add(hour);
+        }
+        return hours;
     }
 }
