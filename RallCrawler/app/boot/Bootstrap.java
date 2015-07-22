@@ -23,7 +23,10 @@ import play.test.Fixtures;
 public class Bootstrap extends Job {
     public void doJob() throws ParseException {
     	initIterations();
-    	initUserstories();
+    	if(Application.userstoryMap.size() == 0){
+	    	initUserstories("D:\\Git\\PythonCraw\\burndown-tdms.json");
+	    	initUserstories("D:\\Git\\PythonCraw\\burndown-se.json");
+    	}
     }
     
     private void initIterations() throws ParseException{
@@ -51,10 +54,10 @@ public class Bootstrap extends Job {
 		}
     }
     
-    private void initUserstories() throws ParseException{
-    	if(Application.userstoryMap.size() == 0){
+    private void initUserstories(String filePath) throws ParseException{
+    	
     		JsonParser parser = new JsonParser();
-			String iterationsContent = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\burndown.json"); 
+			String iterationsContent = CrawlerHelper.ReadFromJsonFile(filePath); 
 			JsonArray jsonIterationContent = (JsonArray)parser.parse(iterationsContent);
 	    	if(jsonIterationContent != null){
 	    		for(JsonElement element : jsonIterationContent){  	
@@ -86,6 +89,5 @@ public class Bootstrap extends Job {
 	    			}
 	    		}
 	    	}
-    	}
     }
 }

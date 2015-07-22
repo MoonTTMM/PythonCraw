@@ -24,7 +24,7 @@ public class Application extends Controller {
 	public static Hashtable<String, Iteration> iterationMap = new Hashtable<String, Iteration>();
 	public static Hashtable<String, Userstory> userstoryMap = new Hashtable<String, Userstory>();
 	
-    public static void index(String iterationQuery, String ownerQuery, String projectQuery) throws ParseException {
+    public static void index(String iterationQuery, String ownerQuery, String projectQuery, String filePath) throws ParseException {
     	HighChartData chart = new HighChartData();
     	List<String> owners = new ArrayList<String>();  
     	owners.add("");
@@ -35,7 +35,8 @@ public class Application extends Controller {
     		currentIteration = iterationMap.get(iterationQuery);
     	}
     	
-    	String burndownContent = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\burndown.json");       	  
+    	filePath = filePath == null ? "D:\\Git\\PythonCraw\\burndown-se.json" : filePath;
+    	String burndownContent = CrawlerHelper.ReadFromJsonFile(filePath);       	  
     	Hashtable dateUsToTodoTime = new Hashtable<String, Date>();    
     	Hashtable dateUsToActualTime = new Hashtable<String, Date>();  
     	

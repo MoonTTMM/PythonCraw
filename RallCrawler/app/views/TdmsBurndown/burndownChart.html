@@ -1,0 +1,90 @@
+#{extends 'main.html' /}
+#{set title:'RallyCrawler' /}
+
+<div class="container-fluid">
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <a class="brand" href="#">RallyCrawler</a>
+	    <ul class="nav">
+	      <li class="active"><a href="/">Personal Burndown Chart</a></li>
+	      <li><a href="/iterations">Iteration Hours Chart</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="alert alert-info">
+		<h4>Personal Burndown Chart</h4>
+	</div>
+	<div class="row-fluid">
+		<form class="form form-inline form-ajax" action="/tdms/burndown"  method="post" enctype="multipart/form-data">
+			<label class="control-label" for="iteration">Iteration</label>
+			#{if currentIteration} 
+	   		#{select 'iterationQuery', items:allIterations, value:currentIteration.iterationName,  valueProperty:'iterationName', labelProperty:'iterationName', id:'iteration' /}
+	   		#{/if}
+	   		#{else}
+	   		#{select 'iterationQuery', items:allIterations, value:'',  valueProperty:'iterationName', labelProperty:'iterationName', id:'iteration' /}
+	   		#{/else}
+			<label class="control-label" for="project">Project</label>
+	   		#{select 'projectQuery', items:projects, value:projectQuery, id:'project' /}
+	   		<label class="control-label" for="owner">Owner</label>
+	   		#{select 'owner', items:owners, value:'', id:'owner', onchange:'javascript:void(0);' /}
+	   		<input name="ownerQuery" type="text" value="${ownerQuery}" id="ownerQuery" />
+	   		<button id="btn_submit" class="btn btn-primary" click="javascript:void(0);" type="submit">确定</button>
+		</form>
+	</div>
+	<div class="row-fluid">
+		<div class="span10" >
+			<div id="burndown_chart"></div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+$('#owner').change(function(){
+	var text = $('#ownerQuery').val();
+	if(text!=""){
+		text += ",";
+	}
+	$('#ownerQuery').val(text + $('#owner').val());
+});
+
+#{if chart.xAxis}
+$(function () { 
+    $('#burndown_chart').highcharts({
+        chart: {
+        	type: "column",
+            renderTo: '${chart.renderToId}',
+            borderColor: '#BBBBBB',
+            borderWidth: 0
+        },
+        title: {
+            text: '<strong>${chart.title}</strong>',
+            x: -20 //center
+        },
+        xAxis: {
+            categories: ${chart.xAxis}
+        },
+        yAxis: {
+            title: {
+                text: '${chart.yTitle}'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: ''
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: ${chart.chartData}
+    });
+});
+#{/if}
+</script>

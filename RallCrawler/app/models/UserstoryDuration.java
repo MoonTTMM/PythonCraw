@@ -15,7 +15,8 @@ public class UserstoryDuration implements Comparable<UserstoryDuration> {
 	}
 	
 	public Date getActualEnd(){
-		return endTime != null && iteration.endDate.after(endTime) ? endTime : iteration.endDate;
+		Date end =  endTime != null && iteration.endDate.after(endTime) ? endTime : iteration.endDate;
+		return end.after(new Date()) ? new Date() : end;
 	}
 	
 	public UserstoryDuration(Iteration i){
