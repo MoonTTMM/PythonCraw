@@ -32,5 +32,10 @@ print parse_id_from_url(history_url)
 iteration = {"_ref" : "abc"}
 print "iteration = \"" + iteration["_ref"] + "\""
 
+project_iteration_url = "https://rally1.rallydev.com/slm/webservice/v2.x/iteration?pagesize=200&query=(Project = \"Project/15468059055\")"
+print get_project_id_from_url(project_iteration_url)
+
+iteration_revision = "ITERATION changed from [I16 (ends 2015-06-26)] to [I17 (ends 2015-07-24)]"
+print parse_iteration_from_revision(iteration_revision)
 
 

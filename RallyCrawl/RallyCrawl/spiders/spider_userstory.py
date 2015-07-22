@@ -39,7 +39,7 @@ class UserstorySpider(scrapy.Spider):
 	def after_login(self, response):
 		# project id for search.
 		query = "Project = \"Project/15468059055\""
-		feature_url = helper.build_url(BASE_SERVICE, [TYPES.FEATURE], [FIELDS.NAME, FIELDS.OWNER, FIELDS.CHILDREN], query)
+		feature_url = helper.build_url(BASE_SERVICE, [TYPES.FEATURE], [FIELDS.NAME, FIELDS.OWNER, FIELDS.CHILDREN], [query])
 		return scrapy.Request(feature_url, callback = self.parse_feature)
 
 	# traverse all features
@@ -48,7 +48,7 @@ class UserstorySpider(scrapy.Spider):
 		print feature_dict
 		# feature is a dict
 		for feature in feature_dict["QueryResult"]["Results"]:
-			userstory_url = feature["_ref"] + "/" + "UserStories?pagesize=10000"
+			userstory_url = feature["_ref"] + "/" + "UserStories?pagesize=200"
 			# request all user stories in current feature
 			yield scrapy.Request(userstory_url, callback = self.parse_userstory)
 
@@ -59,7 +59,7 @@ class UserstorySpider(scrapy.Spider):
 		for userstory in userstory_dict["QueryResult"]["Results"]:
 			# recursion in user story tree. (only traverse search userstory)
 			children = userstory["Children"]
-			yield scrapy.Request(children["_ref"]+"?pagesize=10000", callback = self.parse_userstory)
+			yield scrapy.Request(children["_ref"]+"?pagesize=200", callback = self.parse_userstory)
 			# recursion in predecessor tree.
 			predecessors = userstory["Predecessors"]
 			if predecessors["Count"] > 0 : 

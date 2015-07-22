@@ -11,5 +11,9 @@ GET     /favicon.ico                            404
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+POST    /index                                 Application.index
+GET     /iterations                            IterationController.iterations
+POST    /project/iterations                    IterationController.iterations
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
