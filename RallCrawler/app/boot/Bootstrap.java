@@ -4,6 +4,7 @@ import helper.CrawlerHelper;
 
 import java.text.ParseException;
 import java.util.Date;
+import java.util.List;
 
 import models.Iteration;
 import models.Userstory;
@@ -54,40 +55,44 @@ public class Bootstrap extends Job {
 		}
     }
     
-    private void initUserstories(String filePath) throws ParseException{
-    	
-    		JsonParser parser = new JsonParser();
-			String iterationsContent = CrawlerHelper.ReadFromJsonFile(filePath); 
-			JsonArray jsonIterationContent = (JsonArray)parser.parse(iterationsContent);
-	    	if(jsonIterationContent != null){
-	    		for(JsonElement element : jsonIterationContent){  	
-	    			JsonObject jsonObject = element.getAsJsonObject();
-	    			String userstory = jsonObject.get("userstory").getAsString();
-	    			String iteration = jsonObject.get("iteration").getAsString();
-	    			Userstory us = new Userstory(userstory);
-	    			if(Application.userstoryMap.containsKey(userstory)){
-	    				us = Application.userstoryMap.get(userstory);
-	    			}else{
-	    				Application.userstoryMap.put(userstory, us);
-	    			}
-	    			if(Application.iterationMap.containsKey(iteration)){
-	    				Iteration i = Application.iterationMap.get(iteration);
-	    				UserstoryDuration duration = new UserstoryDuration(i);
-	    				if(us.durationMap.containsKey(iteration)){
-	    					duration = us.durationMap.get(iteration);
-	    				}else{
-	    					us.durationMap.put(iteration, duration);
-	    				}
-	        			JsonElement startTimeObject = jsonObject.get("startTime");
-	        			JsonElement endTimeObject = jsonObject.get("endTime");
-	        			if(startTimeObject != null){
-	        				duration.startTime = CrawlerHelper.ConvertStringToDate(startTimeObject.getAsString());	  
-	        			}
-	        			if(endTimeObject != null){
-	        				duration.endTime = CrawlerHelper.ConvertStringToDate(endTimeObject.getAsString());
-	        			}
-	    			}
-	    		}
-	    	}
-    }
+	private void initUserstories(String filePath) throws ParseException {
+		JsonParser parser = new JsonParser();
+		String iterationsContent = CrawlerHelper.ReadFromJsonFile(filePath);
+		JsonArray jsonIterationContent = (JsonArray) parser.parse(iterationsContent);
+		if (jsonIterationContent != null) {
+			for (JsonElement element : jsonIterationContent) {
+				JsonObject jsonObject = element.getAsJsonObject();
+				String userstory = jsonObject.get("userstory").getAsString();
+				String iteration = jsonObject.get("iteration").getAsString();
+				Userstory us = new Userstory(userstory);
+				if (Application.userstoryMap.containsKey(userstory)) {
+					us = Application.userstoryMap.get(userstory);
+				} else {
+					Application.userstoryMap.put(userstory, us);
+				}
+				if (Application.iterationMap.containsKey(iteration)) {
+					Iteration i = Application.iterationMap.get(iteration);
+					UserstoryDuration duration = new UserstoryDuration(i);
+					if (us.durationMap.containsKey(iteration)) {
+						duration = us.durationMap.get(iteration);
+					} else {
+						us.durationMap.put(iteration, duration);
+					}
+					JsonElement startTimeObject = jsonObject.get("startTime");
+					JsonElement endTimeObject = jsonObject.get("endTime");
+					if (startTimeObject != null) {
+						duration.startTime = CrawlerHelper.ConvertStringToDate(startTimeObject.getAsString());
+					}
+					if (endTimeObject != null) {
+						duration.endTime = CrawlerHelper.ConvertStringToDate(endTimeObject.getAsString());
+					}
+				}
+			}
+			//for(Userstory us : Application.userstoryMap.values()){
+			//	List<UserstoryDuration> durations = us.getSortedDurations();
+			//	us.startDate = durations.get(0).getActualEnd();
+			//	us.endDate = durations.get(durations.size() - 1).getActualEnd();
+			//}
+		}
+	}
 }

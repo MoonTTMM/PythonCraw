@@ -11,6 +11,8 @@ import java.util.List;
 
 public class Userstory {
 	public String id;
+	public Date startDate;
+	public Date endDate;
 	public Hashtable<String, UserstoryDuration> durationMap;
 	
 	public Userstory(String id){
@@ -20,6 +22,7 @@ public class Userstory {
 	
 	public List<String> getAllDurationDays(){
 		List<UserstoryDuration> durations = getSortedDurations();
+		List<String> days = new ArrayList<String>();
 		for(UserstoryDuration d : durations){
 			days.addAll(d.getDurationDays());
 		}
@@ -31,7 +34,6 @@ public class Userstory {
 		for(UserstoryDuration d : durationMap.values()){
 			durations.add(d);
 		}
-		List<String> days = new ArrayList<String>();
 		Collections.sort(durations);
 		return durations;
 	}

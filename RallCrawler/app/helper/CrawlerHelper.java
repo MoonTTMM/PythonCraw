@@ -93,7 +93,7 @@ public class CrawlerHelper {
 		List<String> days = new ArrayList<String>();
 		Collections.sort(iterations);
 		for(Iteration i : iterations){
-			days.addAll(i.getIterationDays());
+			days.addAll(i.getIterationDays(false));
 		}
 		return days;
 	}

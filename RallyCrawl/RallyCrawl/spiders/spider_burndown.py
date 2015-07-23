@@ -42,7 +42,7 @@ class BurndownSpider(scrapy.Spider):
 			)
 
 	def after_login(self, response):
-		for project in projects_se:
+		for project in projects_tdms:
 			search_iterations_url = helper.build_url(BASE_SERVICE + CATEGORY.ITERATION, [], [FIELDS.ENDDATE, FIELDS.STARTDATE], [project])
 			yield scrapy.Request(search_iterations_url, callback = self.parse_iteration)			
 
@@ -68,7 +68,7 @@ class BurndownSpider(scrapy.Spider):
 			owner = userstory["Owner"]["_refObjectName"]
 			project = userstory["Project"]["_refObjectName"]
 			iteration = userstory["Iteration"]["_refObjectName"]
-			if owner in owners_se:
+			if owner in owners_tdms:
 				# use this as the identifier for project
 				revisionHistory = userstory["RevisionHistory"]["_ref"]
 				userstory = helper.parse_id_from_url(revisionHistory)

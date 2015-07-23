@@ -45,8 +45,8 @@ public class Iteration implements Comparable<Iteration> {
 		}
 	}
 	
-	public List<String> getIterationDays(){
-		return CrawlerHelper.GetDaysBetween(startDate, endDate, false);
+	public List<String> getIterationDays(boolean withoutWeekend){
+		return CrawlerHelper.GetDaysBetween(startDate, endDate, withoutWeekend);
 	}
 	
 	public static boolean contained(List<Iteration> iterations, String iterationName){

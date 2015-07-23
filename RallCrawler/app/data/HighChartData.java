@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Map.Entry;
 
 import models.Iteration;
+import models.Userstory;
+import models.UserstoryDuration;
 import play.libs.F.Tuple;
 
 import com.google.gson.JsonArray;
@@ -92,11 +94,11 @@ public class HighChartData{
 			if(currentIteration == null){
 				return chart;
 			}
-    		List<String> iterationDays = CrawlerHelper.GetDaysBetween(currentIteration.startDate, currentIteration.endDate, true);  
+    		
     		FulfillUserstoryBurndownTodo(usToDateToTodo, usToTimespan, currentIteration);
     		FulfillUserstoryBurndownActual(usToDateToActual, currentIteration);   		 		
-    		List<Integer> todos = GetBurndownHourSeries(usToDateToTodo, iterationDays);
-    		List<Integer> actuals = GetBurndownHourSeries(usToDateToActual, iterationDays);
+    		List<Integer> todos = GetBurndownTodoHourSeries(usToDateToTodo, currentIteration);
+    		List<Integer> actuals = GetBurndownActualHourSeries(usToDateToActual, currentIteration);
 
     		// Create series data for chart
     		JsonArray burndownJson = new JsonArray();
@@ -111,7 +113,7 @@ public class HighChartData{
     		
     		String burndownData = burndownJson.toString().replaceAll("\"", "").replaceAll("Actual", "'Actual'").replaceAll("Todo", "'Todo'");
     	    chart.chartData = burndownData;
-    		chart.xAxis = CrawlerHelper.ConvertStringListToString(iterationDays);
+    		chart.xAxis = CrawlerHelper.ConvertStringListToString(currentIteration.getIterationDays(true));
     	}
     	
 		chart.title = "Persernal Burndown Chart";
@@ -179,9 +181,9 @@ public class HighChartData{
             Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
             String userstory = entry.getKey();
             Hashtable<String, Integer> dict = entry.getValue();
-            Userstory us = Application.userstoryMap.get(userstory);
-            List<UserstoryDuration> durations = us.getSortedDurations();
-            List<String> days = Application.userstoryMap.get(userstory).getAllDurationDays();
+            Tuple<Date, Date> timespan = usToTimespan.get(userstory);
+            Date endDate = iteration.endDate.after(new Date()) ? new Date() : iteration.endDate;
+            List<String> days = CrawlerHelper.GetDaysBetween(timespan._1, endDate, false);
             for(String day : days){
                 if(!dict.containsKey(day)){
                     dict.put(day, previous);
@@ -208,9 +210,31 @@ public class HighChartData{
     }
     
     // Sum hours for user stories in the same day.
-    private static List<Integer> GetBurndownHourSeries(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, List<String> days){
+    private static List<Integer> GetBurndownTodoHourSeries(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, Iteration current){    	
 		List<Integer> hours = new ArrayList<Integer>();
-        for(String day : days){
+		String iterationName = current.iterationName;
+        for(String day : current.getIterationDays(true)){
+            int hour = 0;
+            for(Object map : usToDateToHour.entrySet()){
+                Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
+                String userstory = entry.getKey();
+                Hashtable<String, Integer> dict = entry.getValue();
+                UserstoryDuration duration = Application.userstoryMap.get(userstory).durationMap.get(iterationName);
+                if(duration != null){
+                	if(duration.getDurationDays().contains(day) && dict.containsKey(day)){
+                		hour += dict.get(day);
+                	}
+                }
+            }
+            hours.add(hour);
+        }
+        return hours;
+    }
+    
+    // Sum hours for user stories in the same day.
+    private static List<Integer> GetBurndownActualHourSeries(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, Iteration current){   	    	
+		List<Integer> hours = new ArrayList<Integer>();
+        for(String day : current.getIterationDays(true)){
             int hour = 0;
             for(Object value : usToDateToHour.values()){
             	Hashtable<String, Integer> dict = (Hashtable<String, Integer>)value;
