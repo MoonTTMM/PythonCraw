@@ -10,7 +10,7 @@ import data.HighChartData;
 import play.mvc.Controller;
 
 public class SeBurndown extends Controller {
-	private static String filePath = "D:\\Git\\PythonCraw\\burndown-se.json";
+	private static String filePath = "data\\burndown-se.json";
 	
 	public static void burndownChart(String iterationQuery, String ownerQuery, String projectQuery) throws ParseException{    	
     	List<String> owners = new ArrayList<String>();  

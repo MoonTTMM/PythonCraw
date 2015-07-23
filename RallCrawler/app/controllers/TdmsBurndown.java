@@ -10,7 +10,7 @@ import models.Iteration;
 import play.mvc.Controller;
 
 public class TdmsBurndown extends Controller {
-	private static String filePath = "D:\\Git\\PythonCraw\\burndown-tdms.json";
+	private static String filePath = "data\\burndown-tdms.json";
 	
 	public static void burndownChart(String iterationQuery, String ownerQuery, String projectQuery) throws ParseException{    	
     	List<String> owners = new ArrayList<String>();  

@@ -24,15 +24,15 @@ public class Bootstrap extends Job {
     public void doJob() throws ParseException {
     	initIterations();
     	if(Application.userstoryMap.size() == 0){
-	    	initUserstories("D:\\Git\\PythonCraw\\burndown-tdms.json");
-	    	initUserstories("D:\\Git\\PythonCraw\\burndown-se.json");
+	    	initUserstories("data\\burndown-tdms.json");
+	    	initUserstories("data\\burndown-se.json");
     	}
     }
     
     private void initIterations() throws ParseException{
     	if(Application.iterationMap.size() == 0){
     		JsonParser parser = new JsonParser();
-			String iterationsContent = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\iteration.json"); 
+			String iterationsContent = CrawlerHelper.ReadFromJsonFile("data\\iteration.json"); 
 			JsonArray jsonIterationContent = (JsonArray)parser.parse(iterationsContent);
 	    	if(jsonIterationContent != null){
 	    		for(JsonElement element : jsonIterationContent){  	

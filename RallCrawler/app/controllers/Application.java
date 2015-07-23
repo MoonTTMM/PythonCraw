@@ -35,7 +35,7 @@ public class Application extends Controller {
     		currentIteration = iterationMap.get(iterationQuery);
     	}
     	
-    	filePath = filePath == null ? "D:\\Git\\PythonCraw\\burndown-se.json" : filePath;
+    	filePath = filePath == null ? "data\\burndown-se.json" : filePath;
     	String burndownContent = CrawlerHelper.ReadFromJsonFile(filePath);       	  
     	Hashtable dateUsToTodoTime = new Hashtable<String, Date>();    
     	Hashtable dateUsToActualTime = new Hashtable<String, Date>();  

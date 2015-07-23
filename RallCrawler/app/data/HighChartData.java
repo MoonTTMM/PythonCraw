@@ -152,22 +152,43 @@ public class HighChartData{
     }
     
     // Compensate to have the whole burndown of each us.
+    // private static void FulfillUserstoryBurndownTodo(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, 
+    // 		Hashtable<String, Tuple<Date, Date>> usToTimespan,
+    // 		Iteration iteration) throws ParseException{        
+    //     for(Object map : usToDateToHour.entrySet()){
+    //     	int previous = 0;
+    //     	Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
+    //     	String userstory = entry.getKey();
+    //     	Hashtable<String, Integer> dict = entry.getValue();
+    //     	List<String> days = Application.userstoryMap.get(userstory).getAllDurationDays();
+    //     	for(String day : days){
+    //             if(!dict.containsKey(day)){
+    //                 dict.put(day, previous);
+    //             }else{
+    //                 previous = (int)dict.get(day);
+    //             }
+    //     	}
+    //     }
+    // }
+
     private static void FulfillUserstoryBurndownTodo(Hashtable<String, Hashtable<String, Integer>> usToDateToHour, 
-    		Hashtable<String, Tuple<Date, Date>> usToTimespan,
-    		Iteration iteration) throws ParseException{        
+            Hashtable<String, Tuple<Date, Date>> usToTimespan,
+            Iteration iteration) throws ParseException{        
         for(Object map : usToDateToHour.entrySet()){
-        	int previous = 0;
-        	Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
-        	String userstory = entry.getKey();
-        	Hashtable<String, Integer> dict = entry.getValue();
-        	List<String> days = Application.userstoryMap.get(userstory).getAllDurationDays();
-        	for(String day : days){
+            int previous = 0;
+            Entry<String, Hashtable<String, Integer>> entry = (Entry<String, Hashtable<String, Integer>>)map;
+            String userstory = entry.getKey();
+            Hashtable<String, Integer> dict = entry.getValue();
+            Userstory us = Application.userstoryMap.get(userstory);
+            List<UserstoryDuration> durations = us.getSortedDurations();
+            List<String> days = Application.userstoryMap.get(userstory).getAllDurationDays();
+            for(String day : days){
                 if(!dict.containsKey(day)){
                     dict.put(day, previous);
                 }else{
                     previous = (int)dict.get(day);
                 }
-        	}
+            }
         }
     }
     

@@ -26,7 +26,7 @@ public class IterationController extends Controller {
     	HighChartData chart = new HighChartData();    	
     	List<String> projects = new ArrayList<String>();
     	Hashtable<String, List<Iteration>> projectToIterations = new Hashtable<String, List<Iteration>>();
-    	String content = CrawlerHelper.ReadFromJsonFile("D:\\Git\\PythonCraw\\iteration.json");    	    	    	    	
+    	String content = CrawlerHelper.ReadFromJsonFile("data\\iteration.json");    	    	    	    	
     	JsonParser parser = new JsonParser();
     	JsonArray jsonContent = (JsonArray)parser.parse(content);
     	if(jsonContent != null){
